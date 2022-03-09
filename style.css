@@ -1,0 +1,114 @@
+h2{
+    text-align: center;
+    margin-bottom : 20px; 
+    font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+h4{
+    text-align:left;
+    margin-bottom : 20px; 
+    font-family :'Times New Roman', Times, serif; 
+}
+
+.container{ 
+    max-width : 1080px; 
+    margin : 20px auto; 
+    background-color: white;
+    overflow : hidden; 
+    padding : 10px; 
+   }
+.header{ 
+ border : 1px solid #dedede; 
+ padding : 10px; 
+ margin : 10px; 
+ background :rgba(122, 218, 218, 0.215);
+ box-shadow: 2px 2px 15px black;
+ 
+} 
+
+.left{ 
+    width : 250px; 
+    border : 1px solid #dedede; 
+    padding : 10px; 
+    margin : 10px; 
+    float : left; 
+    background :rgba(122, 218, 218, 0.215);
+    box-shadow: 2px 2px 15px black;
+    }
+
+.left ul{ 
+    list-style-type : none; 
+} 
+.left ul li{ 
+    display : block; 
+} 
+.left ul li a{ 
+    display :block; 
+    border-bottom : 1px solid #dedede; 
+    margin-bottom : 10px; 
+    padding : 10px 5px; 
+   
+} 
+.left ul li a:hover{ 
+    color:#461AF3; 
+} 
+       
+.middle{ 
+    width : 500px; 
+    border : 1px solid #dedede; 
+    padding : 10px; 
+    margin : 10px; 
+    float : left; 
+    background :rgba(122, 218, 218, 0.215);
+    box-shadow: 2px 2px 15px black;
+    } 
+.middle img{ 
+    max-width : 100%; 
+    height : auto; 
+    width : 100%;
+} 
+.middle a{ 
+    font-weight:bold; 
+} 
+
+
+.right{ 
+    width : 200px; 
+    border : 1px solid #dedede; 
+    padding : 10px; 
+    margin : 10px; 
+    float : left; 
+    background :rgba(122, 218, 218, 0.215);
+    box-shadow: 2px 2px 15px black;
+} 
+.right ul{ 
+    list-style-type : none; 
+} 
+.right ul li{ 
+    display : block; 
+} 
+.right ul li a{ 
+    display :block; 
+    border-bottom : 1px solid #dedede; 
+    margin-bottom : 10px; 
+    padding : 10px 5px; 
+} 
+.right ul li a:hover{ 
+    color:#461AF3; 
+}   
+
+.footer{ 
+    clear : both; 
+    border : 1px solid #dedede; 
+    padding : 15px; 
+    margin : 10px; 
+    background : #9E9AFB;
+    background :rgba(122, 218, 218, 0.215);
+    box-shadow: 2px 2px 15px black;
+}
+
+body{
+    background: url('bckground.png');
+    
+    
+}
